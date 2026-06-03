@@ -1,0 +1,2 @@
+wing_dn_indirect_connectivity_lateralized.R generates lateralized direct and indirect connectivity plots from DNs to MNs shown in Figure 11H, Figure 11—Supplement 2A & B
+dn_to_mn_indirect_example_graph.R uses indirect connectivity to subset neurons which form a pathway between DNs and MNs for graph display--plots pathway shown in Figure 11B

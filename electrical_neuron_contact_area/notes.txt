@@ -1,0 +1,5 @@
+Scripts used for Figure 11--Supplement 1 to generate intersection meshes between putative electrical interneurons and motor neurons, and calculate area of contact
+first run get_mn_and_elec_in_meshes.R to get 3d meshes of neurons of interest
+then in Blender, run the blender_fatten_meshes.py python script to fatten all neurons by 100 nm to create regions of overlap where the neurons have physical contact
+then in Blender, run blender_calc_intersection.py to create meshes of the intersection area between neurons and calculate area of the intersection mesh (blender_recalc_intersection.py calculates the intersection area assuming the intersection meshes are already generated)
+note that the intersection mesh's area is contributed by both neurons, so divide its area by 2 to get the approx contact area between the two neurons
